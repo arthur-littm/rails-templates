@@ -14,8 +14,6 @@ end
 
 inject_into_file 'Gemfile', after: 'group :development, :test do' do
   <<-RUBY
-  gem 'pry-byebug'
-  gem 'pry-rails'
   gem 'dotenv-rails'
   RUBY
 end
